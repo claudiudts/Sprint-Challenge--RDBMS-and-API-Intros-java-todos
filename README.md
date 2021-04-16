@@ -23,13 +23,20 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain your database schema, including how your database is "normalized".
- we have a set
+
+ using joins on the User and Todos models
+
 2. Explain how you connected your API to a database.
-  we connected our API 
+
+  we connected our API via the updated services
 
 3. Explain the flow of data from the client through the backend system and back to the client.
 
+  The flow of goes from Server to Service to Repository and finally to the model.  
+
 4. Explain how the CRUD operations work in your application, including any custom SQL that was used.
+
+  we can get all of the Users and users with a specific id, then we can add a user with a custom todo, we can update the todo and then we can delete the user, which deletes all the todos associated with that user
 
 ## Instructions
 
