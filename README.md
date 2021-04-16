@@ -23,8 +23,12 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain your database schema, including how your database is "normalized".
+ we have a set
 2. Explain how you connected your API to a database.
+  we connected our API 
+
 3. Explain the flow of data from the client through the backend system and back to the client.
+
 4. Explain how the CRUD operations work in your application, including any custom SQL that was used.
 
 ## Instructions
@@ -117,7 +121,7 @@ In your solution, it is essential that you follow best practices and produce cle
 - [ ] GET /users/users/todos - lists the number of todos each user has that are NOT completed. Use a custom query to accomplish this!
   - Users with 0 todos do NOT have to be included in the list
   - Order the list by username!
-  
+
 - [ ] Add in 100 more random users each with a random number (0 - 3) of random todos. The todos descriptions should be something random as well. For my example, I picked Pokemon names!
 
 ## Submission format
